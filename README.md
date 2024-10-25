@@ -1,7 +1,9 @@
 # Piano Cards 🎹🃏
+## **[Play Piano Cards Online!](https://pianocards.xyz)**
+
+![pianocards](https://github.com/user-attachments/assets/6d095c59-26aa-4a34-9f26-72642f9f3418)
 
 Piano Cards is an open-source web-based game that randomly generates a sequence of black and white "cards" representing piano keys. The player is presented with cards in a random black/white pattern, and the goal is to visually engage with the pattern. This could be used as a training tool for developing a quick association between visual patterns and keys, or for fun visual learning games.
-**[Play Piano Cards Online!](http://pianocards.xyz)**
 
 ---
 
@@ -23,9 +25,10 @@ Upon entering the game, the player can select the number of cards they want to g
 
 ## 📂 Project Structure
 
-- `app.py`: Main Flask application that handles routing and random card generation.
+- `cards.py`: Main Flask application that handles routing and random card generation.
 - `templates/index.html`: Frontend interface where cards are displayed.
 - `static/style.css`: CSS for styling the card container and cards.
+- `static/cardgen.js`: JS for frontend handling of cards and user input.
 - `requirements.txt`: Lists Python dependencies for easy installation.
 
 ## ⚙️ Configuration
@@ -100,7 +103,7 @@ pip install -r requirements.txt
 To start the application locally:
 
 ```sh
-python app.py
+python cards.py
 ```
 
 This will start the server at `http://127.0.0.1:18093`, which you can open in your browser.
@@ -109,4 +112,4 @@ This will start the server at `http://127.0.0.1:18093`, which you can open in yo
 
 Enjoy **Piano Cards** as a unique way to connect with visual patterns and practice key identification!
 
-**[Play Piano Cards Online!](http://pianocards.xyz)**
+**[Play Piano Cards Online!](https://pianocards.xyz)**
