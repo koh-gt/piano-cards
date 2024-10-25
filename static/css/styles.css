@@ -1,0 +1,27 @@
+#cardroll-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 90%;
+    min-width: 700px;
+    min-height: 250px;
+    border-radius: 10px;
+    resize: both;
+    overflow: auto;
+}
+
+.card {
+    width: 100px;
+    height: 162px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.black-card { background: black; }
+.white-card { background: white; }
